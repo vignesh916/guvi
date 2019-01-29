@@ -1,0 +1,21 @@
+import java.util.*;
+public static void main(String args[])
+{
+Scanner input=new Scanner(System.in);
+int a,b;
+System.out.println("Enter the Number: ");
+a=input.nextInt();
+b=a-a;
+if(a>b)
+{
+System.out.println("Positive");
+}
+else if(a==0)
+{
+System.out.println("Zero");
+}
+else
+{
+System.out.println("Negative");
+}
+}
